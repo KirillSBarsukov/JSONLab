@@ -11,4 +11,10 @@ request.send();
 request.onload = function() {
     let wierdStuff = request.response; 
     console.log(wierdStuff);
+    loadProducts(wierdStuff);
+}
+
+const loadProducts = (jsonObject) => {
+    let h1element = document.createElement('h1'); 
+    h1element.textContent
 }
