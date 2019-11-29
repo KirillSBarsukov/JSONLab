@@ -1,0 +1,37 @@
+[
+    {
+        "productName" : "A pre-fabricated home in a shipping container",
+        "price" : 36000,
+        "description" : "Who says you have to pay exorbitant broker fees to find the home of your dreams? You can make your dreams of homeownership come true as easily as you'd buy a bottle of dish soap, thanks to this storage-container-turned-house, available for a cool $36K. And before you sign off on a mortgage, brush up on these",
+        "features": [
+            "Fully furnished tiny home - pre-fabricated from new shipping container.",
+            "Includes bedroom, shower, toilet, sink, kitchenette, living area.",
+            "Double patio doors within secure container doors.Fully insulated.",
+            "Bottom sewer connection, easy side water and electrical connection.",
+            "Includes appliances shown. Heated & air conditioned with mini split."
+        ],
+        "image" : [
+            "house1.jpg",
+            "house2.jpg",
+            "house3.jpg",
+            "house4.jpg",
+            "house5.jpg"
+        ]
+    },
+    {
+        "productName" : "1,500 live ladybugs",
+        "price" : 3.05,
+        "description" : "Who says you can't buy anything for under $10 anymore? In fact, Amazon shoppers can buy 1,500 crawling, flying somethings for the bargain price of a latte.",
+        "features": [
+            "Includes a Ladybug educational sheet with Release Tips, Release Rates, Ladybug Fun Facts and FAQ's",
+            "1500 Live Ladybugs, Live Delivery Guaranteed!!",
+            "Ladybugs are general predators that feed on a variety of slow-moving insects including Aphids, Moth eggs, Mites, Scales, Thrips, Leaf Hoppers, Mealybugs, Chinch Bugs, Asparagus Beetle larvae, Whitefly and others.",
+            "Ladybugs are good bugs great for kids, birthday parties, school projects!",
+            "Nature's Good Guys mesh bag of Live adult ladybugs"
+        ],
+        "image" : [
+            "bug1.jpg",
+            "bug2.jpg"
+        ]
+    }
+]
