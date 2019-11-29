@@ -1,7 +1,8 @@
 
 let url = "https://kirillsbarsukov.github.io/JSONLab/src/json.json";
 let request = new XMLHttpRequest();
-request.open("GET", request);
+
+request.open("GET", url);
 
 request.responseType = 'json';
 //test
