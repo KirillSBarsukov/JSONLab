@@ -1,5 +1,5 @@
 
-let url = "https://kirillsbarsukov.github.io/JSONLab/json.json";
+let url = "https://github.com/KirillSBarsukov/JSONLab/blob/master/json.json";
 let request = new XMLHttpRequest();
 request.open("GET", request);
 request.responseType = 'json';
