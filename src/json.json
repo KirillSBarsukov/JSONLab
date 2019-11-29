@@ -1,90 +1,90 @@
-[
-    {
-        "title" : "Top 5 wierd products"
-    },
-    {
-        "productName" : "A pre-fabricated home in a shipping container",
-        "price" : 36000,
-        "description" : "Who says you have to pay exorbitant broker fees to find the home of your dreams? You can make your dreams of homeownership come true as easily as you'd buy a bottle of dish soap, thanks to this storage-container-turned-house, available for a cool $36K. And before you sign off on a mortgage, brush up on these",
-        "features": [
-            "Fully furnished tiny home - pre-fabricated from new shipping container.",
-            "Includes bedroom, shower, toilet, sink, kitchenette, living area.",
-            "Double patio doors within secure container doors.Fully insulated.",
-            "Bottom sewer connection, easy side water and electrical connection.",
-            "Includes appliances shown. Heated & air conditioned with mini split."
-        ],
-        "image" : [
-            "house1.jpg",
-            "house2.jpg",
-            "house3.jpg",
-            "house4.jpg",
-            "house5.jpg"
-        ]
-    },
-    {
-        "productName" : "1,500 live ladybugs",
-        "price" : 3.05,
-        "description" : "Who says you can't buy anything for under $10 anymore? In fact, Amazon shoppers can buy 1,500 crawling, flying somethings for the bargain price of a latte.",
-        "features": [
-            "Includes a Ladybug educational sheet with Release Tips, Release Rates, Ladybug Fun Facts and FAQ's",
-            "1500 Live Ladybugs, Live Delivery Guaranteed!!",
-            "Ladybugs are general predators that feed on a variety of slow-moving insects including Aphids, Moth eggs, Mites, Scales, Thrips, Leaf Hoppers, Mealybugs, Chinch Bugs, Asparagus Beetle larvae, Whitefly and others.",
-            "Ladybugs are good bugs great for kids, birthday parties, school projects!",
-            "Nature's Good Guys mesh bag of Live adult ladybugs"
-        ],
-        "image" : [
-            "bug1.jpg",
-            "bug2.jpg"
-        ]
-    },
-    {
-        "productName" : "Uranium ore",
-        "price" : 39.95,
-        "description" : "While this small amount of uranium ore is pretty low on the radioactivity meter, it's pretty weird that you can buy it from the same site where you get your gym socks. And for more possessions to ditch, discover these",
-        "features": [
-            "test",
-            "test1",
-            "test2"
-        ],
-        "image" : [
-            "ore1.jpg",
-            "ore2.jpg"
-        ]
-    },
-    {
-        "productName" : "A home mushroom farm",
-        "price" : 22.85,
-        "description" : "Now you can grow your own fungus right at home—and not in between your toes!",
-        "features": [
-            "ORGANIC MUSHROOM GROWING KIT: Grow delicious, gourmet oyster mushrooms right out of the box in just 10 days! Just add water and watch them double in size each day. Perfect for tacos, pizza, soups, and salads.",
-            "GREAT GIFT: This kit has been ranked among top Holiday Gifts, Gardening Gifts, Teachers Gifts & Unique Gifts. It comes READY TO GIFT in beautiful packaging & will be sure to be THE gift of the year. Go ahead & treat yourself or a loved one today!",
-            "EVERYTHING INCLUDED: Simply mist your kit with water and you'll have gourmet oyster mushrooms in 10 days! Great gift for kids, teachers, foodies & gardeners - no green thumb needed! Includes spray bottle, Mushroom Discovery Book & STEM curriculum online.",
-            "MADE IN THE USA & 100% GUARANTEED TO GROW: All Back to the Roots Indoor Gardening Kits are backed by this promise – if your kit doesn't grow as described, we'll replace it free of charge or provide a 100% refund",
-            "GROWS YEAR ROUND: The Organic Mushroom Growing Kit works year 'round in any city - Spring, Summer, Fall or Winter! Just place the box near a window with indirect light, mist twice a day, and you'll see delicious, beautiful mushrooms growing within a week!"
-        ],
-        "image" : [
-            "mushroom1.jpg",
-            "mushroom2.jpg",
-            "mushroom3.jpg",
-            "mushroom4.jpg"
-        ]
-    },
-    {
-        "productName" : "A cat butt tissue holder",
-        "price" : 34.94,
-        "description" : "This seems like the nicest thing to be plucked from a cat's rear since, well, ever. And who doesn't like to be stared down with peering, inquisitive eyes each time they need to blow their nose?",
-        "features": [
-            "THESE KITTIES LOVE TO HELP - Keep your tissues close at hand with the help of your trusty feline friend.",
-            "HUMOROUS TISSUE HOLDER - You are certain to get loads of laughs and visitors to your powder room or office will love to grab a tissue from this quirky cat.",
-            "FITS SQUARE TISSUE BOXES - Measures 12.5 long x 9.25 wide, fits standard square tissue boxes.",
-            "MAKES A GREAT GIFT - Cat lovers far and wide will chuckle and love this hilarious tissue box holder.",
-            "QUALITY MATERIALS - Each Cat Butt tissue holder is made of molded resin that's easy to clean and designed to last. Hand wash is warm soapy water when needed."
-        ],
-        "image" : [
-            "cat1.jpg",
-            "cat2.jpg",
-            "cat3.jpg",
-            "cat4.jpg"
-        ]
-    }
-]
+{
+    "title" : "Top 5 wierd products",
+    "products": [
+        {
+            "productName" : "A pre-fabricated home in a shipping container",
+            "price" : 36000,
+            "description" : "Who says you have to pay exorbitant broker fees to find the home of your dreams? You can make your dreams of homeownership come true as easily as you'd buy a bottle of dish soap, thanks to this storage-container-turned-house, available for a cool $36K. And before you sign off on a mortgage, brush up on these",
+            "features": [
+                "Fully furnished tiny home - pre-fabricated from new shipping container.",
+                "Includes bedroom, shower, toilet, sink, kitchenette, living area.",
+                "Double patio doors within secure container doors.Fully insulated.",
+                "Bottom sewer connection, easy side water and electrical connection.",
+                "Includes appliances shown. Heated & air conditioned with mini split."
+            ],
+            "image" : [
+                "house1.jpg",
+                "house2.jpg",
+                "house3.jpg",
+                "house4.jpg",
+                "house5.jpg"
+            ]
+        },
+        {
+            "productName" : "1,500 live ladybugs",
+            "price" : 3.05,
+            "description" : "Who says you can't buy anything for under $10 anymore? In fact, Amazon shoppers can buy 1,500 crawling, flying somethings for the bargain price of a latte.",
+            "features": [
+                "Includes a Ladybug educational sheet with Release Tips, Release Rates, Ladybug Fun Facts and FAQ's",
+                "1500 Live Ladybugs, Live Delivery Guaranteed!!",
+                "Ladybugs are general predators that feed on a variety of slow-moving insects including Aphids, Moth eggs, Mites, Scales, Thrips, Leaf Hoppers, Mealybugs, Chinch Bugs, Asparagus Beetle larvae, Whitefly and others.",
+                "Ladybugs are good bugs great for kids, birthday parties, school projects!",
+                "Nature's Good Guys mesh bag of Live adult ladybugs"
+            ],
+            "image" : [
+                "bug1.jpg",
+                "bug2.jpg"
+            ]
+        },
+        {
+            "productName" : "Uranium ore",
+            "price" : 39.95,
+            "description" : "While this small amount of uranium ore is pretty low on the radioactivity meter, it's pretty weird that you can buy it from the same site where you get your gym socks. And for more possessions to ditch, discover these",
+            "features": [
+                "test",
+                "test1",
+                "test2"
+            ],
+            "image" : [
+                "ore1.jpg",
+                "ore2.jpg"
+            ]
+        },
+        {
+            "productName" : "A home mushroom farm",
+            "price" : 22.85,
+            "description" : "Now you can grow your own fungus right at home—and not in between your toes!",
+            "features": [
+                "ORGANIC MUSHROOM GROWING KIT: Grow delicious, gourmet oyster mushrooms right out of the box in just 10 days! Just add water and watch them double in size each day. Perfect for tacos, pizza, soups, and salads.",
+                "GREAT GIFT: This kit has been ranked among top Holiday Gifts, Gardening Gifts, Teachers Gifts & Unique Gifts. It comes READY TO GIFT in beautiful packaging & will be sure to be THE gift of the year. Go ahead & treat yourself or a loved one today!",
+                "EVERYTHING INCLUDED: Simply mist your kit with water and you'll have gourmet oyster mushrooms in 10 days! Great gift for kids, teachers, foodies & gardeners - no green thumb needed! Includes spray bottle, Mushroom Discovery Book & STEM curriculum online.",
+                "MADE IN THE USA & 100% GUARANTEED TO GROW: All Back to the Roots Indoor Gardening Kits are backed by this promise – if your kit doesn't grow as described, we'll replace it free of charge or provide a 100% refund",
+                "GROWS YEAR ROUND: The Organic Mushroom Growing Kit works year 'round in any city - Spring, Summer, Fall or Winter! Just place the box near a window with indirect light, mist twice a day, and you'll see delicious, beautiful mushrooms growing within a week!"
+            ],
+            "image" : [
+                "mushroom1.jpg",
+                "mushroom2.jpg",
+                "mushroom3.jpg",
+                "mushroom4.jpg"
+            ]
+        },
+        {
+            "productName" : "A cat butt tissue holder",
+            "price" : 34.94,
+            "description" : "This seems like the nicest thing to be plucked from a cat's rear since, well, ever. And who doesn't like to be stared down with peering, inquisitive eyes each time they need to blow their nose?",
+            "features": [
+                "THESE KITTIES LOVE TO HELP - Keep your tissues close at hand with the help of your trusty feline friend.",
+                "HUMOROUS TISSUE HOLDER - You are certain to get loads of laughs and visitors to your powder room or office will love to grab a tissue from this quirky cat.",
+                "FITS SQUARE TISSUE BOXES - Measures 12.5 long x 9.25 wide, fits standard square tissue boxes.",
+                "MAKES A GREAT GIFT - Cat lovers far and wide will chuckle and love this hilarious tissue box holder.",
+                "QUALITY MATERIALS - Each Cat Butt tissue holder is made of molded resin that's easy to clean and designed to last. Hand wash is warm soapy water when needed."
+            ],
+            "image" : [
+                "cat1.jpg",
+                "cat2.jpg",
+                "cat3.jpg",
+                "cat4.jpg"
+            ]
+        }
+    ]
+}
