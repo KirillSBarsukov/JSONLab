@@ -4,7 +4,7 @@ let request = new XMLHttpRequest();
 request.open("GET", request);
 
 request.responseType = 'json';
-
+//test
 request.send();
 
 request.onload = function() {
