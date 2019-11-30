@@ -19,6 +19,7 @@ request.onload = function() {
 
 const loadTitles = (jsonObject) => {
     let h1element = document.createElement('h1'); 
+    h1element.style.textAlign = "center";
     let h3element = document.createElement('h3'); 
     let paragraph = document.createElement('p'); 
     paragraph.textContent = jsonObject['date']
@@ -35,13 +36,16 @@ function loadProducts (jsonObject) {
     for(let i = 0; i < products.length; i++){
         //create a few different elements 
         let article = document.createElement('article');
+        article.style.backgroundColor = "beige";
+        article.style.marginTop = "2rem";
+        article.style.padding = "1rem";
         let h2 = document.createElement('h2');
         let img = document.createElement('img');
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let list = document.createElement('ul');
-        
-        //img.setAttribute('src', urlImg[i].image);
+        console.log(products[i]['image'])
+        img.setAttribute('src', urlImg + products);
         h2.textContent = products[i].productName;
         p1.textContent = products[i].description;
         p2.textContent = "$ " + products[i].price;
