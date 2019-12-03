@@ -16,9 +16,9 @@
                 "Includes appliances shown. Heated & air conditioned with mini split."
             ],
             "image" : "house1.jpg",
-            "location"  : {
-                "lattitude" : 43.237355,
-                "longtitude": -79.882689
+            "location" : {
+                "latitude" : 43.237355,
+                "longitude": -79.882689
             }
         },
         {
@@ -34,8 +34,8 @@
             ],
             "image" : "bug1.jpg",
             "location" : {
-                "lattitude" : 43.237355,
-                "longtitude": -79.882689
+                "latitude" : 43.237355,
+                "longitude": -79.882689
             }
         },
         {
@@ -49,8 +49,8 @@
             ],
             "image" : "ore1.jpg",
             "location" : {
-                "lattitude" : 43.237355,
-                "longtitude": -79.882689
+                "latitude" : 43.237355,
+                "longitude": -79.882689
             }
         },
         {
@@ -66,8 +66,8 @@
             ],
             "image" : "mushroom1.jpg",
             "location" : {
-                "lattitude" : 43.237355,
-                "longtitude": -79.882689
+                "latitude" : 43.237355,
+                "longitude": -79.882689
             }
         },
         {
@@ -83,8 +83,8 @@
             ],
             "image" : "cat1.jpg",
             "location" : {
-                "lattitude" : 43.237355,
-                "longtitude": -79.882689
+                "latitude" : 43.237355,
+                "longitude": -79.882689
             }
         }
     ]

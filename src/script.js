@@ -1,3 +1,14 @@
+// Initialize and add the map
+function initMap(latitude, longitude, div) {
+    // The location of Uluru
+    var uluru = {lat: latitude, lng: longitude};
+    // The map, centered at Uluru
+    var map = new google.maps.Map(
+        document.getElementById(div), {zoom: 4, center: uluru});
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({position: uluru, map: map});
+  }
+
 // declare constants
 const url = "https://kirillsbarsukov.github.io/JSONLab/src/json.json";
 const urlImg = "https://kirillsbarsukov.github.io/JSONLab/img/";
@@ -20,7 +31,7 @@ request.onload = function() {
     console.log(facts);
     loadTitles(wierdStuff);
     loadProducts(wierdStuff);
-
+    loadMap(wierdStuff);
     //loadCatsFact(facts);
 }
 
@@ -43,6 +54,8 @@ const loadProducts = (jsonObject) => {
     for(let i = 0; i < products.length; i++){
         //create a few different elements 
         let article = document.createElement('article');
+        let divMap = document.createElement('div');
+        divMap.setAttribute("id", "divMap" + i);
         article.style.backgroundColor = "beige";
         article.style.marginTop = "2rem";
         article.style.padding = "1rem";
@@ -64,12 +77,16 @@ const loadProducts = (jsonObject) => {
           listItem.textContent = features[k];
           list.appendChild(listItem); 
         }
+        
         article.appendChild(h2);
         article.appendChild(p1); 
         article.appendChild(p2);
         article.appendChild(img); 
         article.appendChild(list);
+        article.appendChild(divMap);
         section.appendChild(article); 
+        console.log(products[i].location.latitude, products[i].location.longitude)
+        //initMap(products[i].location.latitude, products[i].location.longitude, divMap)
     }
-
 }
+
