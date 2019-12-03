@@ -15,7 +15,11 @@
                 "Bottom sewer connection, easy side water and electrical connection.",
                 "Includes appliances shown. Heated & air conditioned with mini split."
             ],
-            "image" : "house1.jpg"
+            "image" : "house1.jpg",
+            "location"  : {
+                "lattitude" : 43.237355,
+                "longtitude": -79.882689
+            }
         },
         {
             "productName" : "1,500 live ladybugs",
@@ -28,7 +32,11 @@
                 "Ladybugs are good bugs great for kids, birthday parties, school projects!",
                 "Nature's Good Guys mesh bag of Live adult ladybugs"
             ],
-            "image" : "bug1.jpg"
+            "image" : "bug1.jpg",
+            "location" : {
+                "lattitude" : 43.237355,
+                "longtitude": -79.882689
+            }
         },
         {
             "productName" : "Uranium ore",
@@ -39,7 +47,11 @@
                 "test1",
                 "test2"
             ],
-            "image" : "ore1.jpg"
+            "image" : "ore1.jpg",
+            "location" : {
+                "lattitude" : 43.237355,
+                "longtitude": -79.882689
+            }
         },
         {
             "productName" : "A home mushroom farm",
@@ -52,7 +64,11 @@
                 "MADE IN THE USA & 100% GUARANTEED TO GROW: All Back to the Roots Indoor Gardening Kits are backed by this promise – if your kit doesn't grow as described, we'll replace it free of charge or provide a 100% refund",
                 "GROWS YEAR ROUND: The Organic Mushroom Growing Kit works year 'round in any city - Spring, Summer, Fall or Winter! Just place the box near a window with indirect light, mist twice a day, and you'll see delicious, beautiful mushrooms growing within a week!"
             ],
-            "image" : "mushroom1.jpg" 
+            "image" : "mushroom1.jpg",
+            "location" : {
+                "lattitude" : 43.237355,
+                "longtitude": -79.882689
+            }
         },
         {
             "productName" : "A cat butt tissue holder",
@@ -65,8 +81,11 @@
                 "MAKES A GREAT GIFT - Cat lovers far and wide will chuckle and love this hilarious tissue box holder.",
                 "QUALITY MATERIALS - Each Cat Butt tissue holder is made of molded resin that's easy to clean and designed to last. Hand wash is warm soapy water when needed."
             ],
-            "image" : "cat1.jpg"
-   
+            "image" : "cat1.jpg",
+            "location" : {
+                "lattitude" : 43.237355,
+                "longtitude": -79.882689
+            }
         }
     ]
 }

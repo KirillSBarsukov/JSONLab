@@ -1,20 +1,27 @@
 // declare constants
 const url = "https://kirillsbarsukov.github.io/JSONLab/src/json.json";
 const urlImg = "https://kirillsbarsukov.github.io/JSONLab/img/";
+// const urlForCats = "https://cat-fact.herokuapp.com/facts";
 
 let request = new XMLHttpRequest();
 let header = document.querySelector('header');
 let section = document.querySelector('section');
 
-
+// request for wierd products
 request.open("GET", url);
 request.responseType = 'json';
 request.send();
+
+
 request.onload = function() {
     let wierdStuff = request.response; 
+    let facts = request.response;
     console.log(wierdStuff);
+    console.log(facts);
     loadTitles(wierdStuff);
     loadProducts(wierdStuff);
+
+    //loadCatsFact(facts);
 }
 
 const loadTitles = (jsonObject) => {
@@ -31,7 +38,7 @@ const loadTitles = (jsonObject) => {
     header.appendChild(paragraph);
 }
 
-function loadProducts (jsonObject) {
+const loadProducts = (jsonObject) => {
     const products = jsonObject['products'];
     for(let i = 0; i < products.length; i++){
         //create a few different elements 
@@ -41,11 +48,12 @@ function loadProducts (jsonObject) {
         article.style.padding = "1rem";
         let h2 = document.createElement('h2');
         let img = document.createElement('img');
+        img.style.width = "30rem";
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let list = document.createElement('ul');
         console.log(products[i]['image'])
-        img.setAttribute('src', urlImg + products);
+        img.setAttribute('src', urlImg + products[i]['image']);
         h2.textContent = products[i].productName;
         p1.textContent = products[i].description;
         p2.textContent = "$ " + products[i].price;
@@ -56,12 +64,10 @@ function loadProducts (jsonObject) {
           listItem.textContent = features[k];
           list.appendChild(listItem); 
         }
-
-
-        //article.appendChild(img); 
         article.appendChild(h2);
         article.appendChild(p1); 
         article.appendChild(p2);
+        article.appendChild(img); 
         article.appendChild(list);
         section.appendChild(article); 
     }
