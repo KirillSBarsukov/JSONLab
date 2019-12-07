@@ -9,7 +9,6 @@ let section = document.querySelector('section');
 
 // request for wierd products
 request.open("GET", url);
-request.open()
 request.responseType = 'json';
 request.send();
 
