@@ -1,13 +1,3 @@
-// Initialize and add the map
-function initMap(latitude, longitude, div) {
-    // The location of Uluru
-    var uluru = {lat: latitude, lng: longitude};
-    // The map, centered at Uluru
-    var map = new google.maps.Map(
-        document.getElementById(div), {zoom: 4, center: uluru});
-      // The marker, positioned at Uluru
-      var marker = new google.maps.Marker({position: uluru, map: map});
-  }
 
 // declare constants
 const url = "https://kirillsbarsukov.github.io/JSONLab/src/json.json";
@@ -31,19 +21,16 @@ request.onload = function() {
     console.log(facts);
     loadTitles(wierdStuff);
     loadProducts(wierdStuff);
-    loadMap(wierdStuff);
-    //loadCatsFact(facts);
+    initMap();
 }
 
 const loadTitles = (jsonObject) => {
     let h1element = document.createElement('h1'); 
-    h1element.style.textAlign = "center";
     let h3element = document.createElement('h3'); 
     let paragraph = document.createElement('p'); 
     paragraph.textContent = jsonObject['date']
     h3element.textContent = jsonObject['website'];
     h1element.textContent = jsonObject['title']
-
     header.appendChild(h1element);
     header.appendChild(h3element);
     header.appendChild(paragraph);
@@ -56,12 +43,8 @@ const loadProducts = (jsonObject) => {
         let article = document.createElement('article');
         let divMap = document.createElement('div');
         divMap.setAttribute("id", "divMap" + i);
-        article.style.backgroundColor = "beige";
-        article.style.marginTop = "2rem";
-        article.style.padding = "1rem";
         let h2 = document.createElement('h2');
         let img = document.createElement('img');
-        img.style.width = "30rem";
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let list = document.createElement('ul');
@@ -86,7 +69,17 @@ const loadProducts = (jsonObject) => {
         article.appendChild(divMap);
         section.appendChild(article); 
         console.log(products[i].location.latitude, products[i].location.longitude)
-        //initMap(products[i].location.latitude, products[i].location.longitude, divMap)
+
     }
 }
 
+
+function initMap() {
+    // The location of Uluru
+    var uluru = {lat: 44.355170, lng: -79.713101};
+    // The map, centered at Uluru
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: uluru});
+    // The marker, positioned at Uluru
+    var marker = new google.maps.Marker({position: uluru, map: map});
+  }
