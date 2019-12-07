@@ -2,7 +2,6 @@
 // declare constants
 const url = "https://kirillsbarsukov.github.io/JSONLab/src/json.json";
 const urlImg = "https://kirillsbarsukov.github.io/JSONLab/img/";
-// const urlForCats = "https://cat-fact.herokuapp.com/facts";
 
 let request = new XMLHttpRequest();
 let header = document.querySelector('header');
@@ -10,15 +9,12 @@ let section = document.querySelector('section');
 
 // request for wierd products
 request.open("GET", url);
+request.open()
 request.responseType = 'json';
 request.send();
 
-
 request.onload = function() {
     let wierdStuff = request.response; 
-    let facts = request.response;
-    console.log(wierdStuff);
-    console.log(facts);
     loadTitles(wierdStuff);
     loadProducts(wierdStuff);
     initMap();
@@ -48,7 +44,6 @@ const loadProducts = (jsonObject) => {
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let list = document.createElement('ul');
-        console.log(products[i]['image'])
         img.setAttribute('src', urlImg + products[i]['image']);
         h2.textContent = products[i].productName;
         p1.textContent = products[i].description;
@@ -68,11 +63,8 @@ const loadProducts = (jsonObject) => {
         article.appendChild(list);
         article.appendChild(divMap);
         section.appendChild(article); 
-        console.log(products[i].location.latitude, products[i].location.longitude)
-
     }
 }
-
 
 function initMap() {
     // The location of Uluru
@@ -82,4 +74,4 @@ function initMap() {
         document.getElementById('map'), {zoom: 4, center: uluru});
     // The marker, positioned at Uluru
     var marker = new google.maps.Marker({position: uluru, map: map});
-  }
+}
